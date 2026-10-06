@@ -3,16 +3,11 @@ name: answer-me-with-html
 argument-hint: "[config [key value] | clean | update]"
 description: >-
   Turns an answer into a one-page visual HTML explainer: the model writes a short Markdown draft and
-  the bundled CLI builds one page. Use it proactively and liberally, without being asked, whenever a
-  page would help the reader more than plain text, even if plain text would also work: any explanation
-  of how something works or how parts relate (flow, request path, architecture, code or folder
-  structure, state machine, lifecycle, history); any comparison, trade-off or decision with pros and
-  cons; any diagnosis, review or investigation, especially with several causes or findings to rank;
-  any answer with a table, a numbered or ranked list, steps, branches or several sections; or when the
-  user says "I don't get it / draw it / explain visually / 讲讲原理 / 没看懂 / 画个图". When in doubt, use it: a
-  page is quick and cheap to make. Also for explainer videos ("make a video", "做个视频") and for changing
-  its settings. Skip only for small talk, a trivial one-line answer, or when the user asks for plain
-  text.
+  the bundled CLI builds one page. Use it on request only: when the user asks for a page, a diagram, a
+  visual explanation or a video, for example "用 HTML 讲一下 / 画个图 / 出个页面 / 可视化讲解 / 没看懂，给我看一页 /
+  draw it / explain visually / make a video / 做个视频", or when they explicitly name this skill, or ask to
+  change its settings. Do not attach a page to an ordinary answer on your own initiative, and do not use
+  it when the user asks for plain text. Local trigger policy lives in the user's global AGENTS.md.
 ---
 
 # Answer me with HTML: answer a complex question with one HTML page
